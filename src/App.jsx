@@ -6,12 +6,12 @@ function App() {
   return (
       <div className="app-container d-flex flex-column min-vh-100">
           {/*hero section*/}
-          <main class="container full-section">
+          <main class="container-fluid full-section">
               <Header/>
           </main>
 
           {/*tools section*/}
-          <section className="container snap-section py-5">
+          <section className="container-fluid snap-section py-5">
               <div className="row py-5">
                   <div className="container-fluid tools-banner">
                       <div className="container"><h2>Our Tools</h2> <p>React Adaptive Cards • Signature
@@ -48,7 +48,7 @@ function App() {
 
 
           {/*mission vision section*/}
-          <section className="container full-section py-5">
+          <section className="container-fluid full-section py-5">
 
               <div className="row mb-4">
                   <div className="col-md-6 align-content-center">
